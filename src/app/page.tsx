@@ -30,12 +30,24 @@ export default function Page() {
                 text={DATA.description}
               />
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
-            </BlurFade>
+            <div className=" flex flex-col items-center justify-center gap-1">
+              <BlurFade
+                className="flex flex-col items-center gap-2"
+                delay={BLUR_FADE_DELAY}
+              >
+                <Avatar className="size-28 border">
+                  <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                  <AvatarFallback>{DATA.initials}</AvatarFallback>
+                </Avatar>
+                <Link
+                  href={
+                    "https://drive.google.com/file/d/1ZXJNzt7ORMYgjX7-2rJXL7I3P3YXbY2B/view"
+                  }
+                >
+                  Resume
+                </Link>
+              </BlurFade>
+            </div>
           </div>
         </div>
       </section>
