@@ -41,7 +41,7 @@ export default function Page() {
                 </Avatar>
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1ZXJNzt7ORMYgjX7-2rJXL7I3P3YXbY2B/view"
+                    "https://drive.google.com/file/d/1IyARuyqLikocjfFyPqvtQxhu11ekQWud/view?usp=drive_link"
                   }
                 >
                   Resume
