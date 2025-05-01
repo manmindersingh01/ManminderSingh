@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full stack developer. I love building things and helping people.",
   summary:
-    "Manminder Singh is a Full Stack developer skilled in JavaScript, TypeScript, ReactJS, Next.js, and more. He has experience in building scalable web applications, resume builder apps, and group chat features. Currently pursuing a B-Tech in civil engineering. Notable projects include Calze, Worker (an AI chat bot), Backpack, Testiflow, and Madon (an ecommerce store).",
+    "Manminder Singh is a Full Stack developer skilled in JavaScript, TypeScript, ReactJS, Next.js, GenerativeAI , Langchain, OpenAI, HuggingFace , Postgres, MongoDB, Prisma, Firebase, ElasticSearch, React Native, GCP, AWS. He has experience in building scalable web applications, resume builder apps, and group chat features. Currently pursuing a B-Tech in civil engineering. Notable projects include Calze, Worker (an AI chat bot), Backpack, Testiflow, and Madon (an ecommerce store).",
   avatarUrl: "/profile.JPG",
   skills: [
     "ReactJS",
@@ -140,6 +140,17 @@ export const DATA = {
       ],
       image: "/worker.png",
       video: "", // Add video link if available
+    },
+    {
+      title: "Baate",
+      href: "https://github.com/manmindersingh01/omagle",
+      dates: "--", // Add specific dates if available
+      active: true,
+      description:
+        "A platform  build using webRTC and socket.io. It allows users to chat with each other in real time.",
+      technologies: ["Reactjs", "socket.io", "webRTC", "Nodejs", "Expressjs"],
+      links: [],
+      image: "/omagle.jpeg",
     },
     {
       title: "Backpack",
