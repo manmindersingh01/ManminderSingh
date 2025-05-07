@@ -113,6 +113,11 @@ export const DATA = {
           href: "https://calze.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/manmindersingh01/calze",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/calze.png",
       video: "", // Add video link if available
@@ -137,6 +142,11 @@ export const DATA = {
           href: "https://worker-mocha.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/manmindersingh01/Worker",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/worker.png",
       video: "", // Add video link if available
@@ -149,7 +159,13 @@ export const DATA = {
       description:
         "A platform  build using webRTC and socket.io. It allows users to chat with each other in real time.",
       technologies: ["Reactjs", "socket.io", "webRTC", "Nodejs", "Expressjs"],
-      links: [],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/manmindersingh01/omagle",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "/omagle.jpeg",
     },
     {
@@ -172,6 +188,11 @@ export const DATA = {
           href: "https://bag-pack-avkm.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/manmindersingh01/BagPack",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/bagpack.png",
       video: "", // Add video link if available
@@ -190,6 +211,11 @@ export const DATA = {
           href: "https://testi-flow.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/manmindersingh01/TestiFlow",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/testiflow.png",
       video: "", // Add video link if available
@@ -207,6 +233,11 @@ export const DATA = {
           type: "Website",
           href: "https://madon.vercel.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/manmindersingh01/madon",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/madon.png",
